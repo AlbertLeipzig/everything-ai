@@ -16,6 +16,8 @@
 - [Overfitting](#overfittingOverfitting)
 - [Prompt-Engineering](#prompt-engineering)
 - [Reinforcement-Learning](#reinforcement-learning)
+- [RAG- Retrieval Augmented Generation](#rag---retrieval-augmented-generation)
+- [Structured Attention](#structured-attention)
 - [Supervised-Learning](#supervised-learning)
 - [Transformer](#transformer)
 - [Transfer-Learning](#transfer-learning)
@@ -24,6 +26,16 @@
 - [Unsupervised Learning](#unsupervised-learning)
 
 ## LLM (Large Language Model)
+
+## Online-Ressources:
+
+- [LLM Course](https://github.com/mlabonne/llm-course)
+- [Hands-On LLM](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)
+- [Langchain](https://github.com/langchain-ai/langchain)
+- [Open LLMS](https://github.com/eugeneyan/open-llms)
+- [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM)
+- [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
+- [Auto-GPT](https://github.com/Significant-Gravitas/AutoGPT)
 
 ## Agent
 
@@ -62,3 +74,7 @@
 ## Supervised Learning
 
 ## Unsupervised Learning
+
+## Structured Attention
+
+## RAG - Retrieval Augmented Generation
