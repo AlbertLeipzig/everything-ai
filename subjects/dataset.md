@@ -1,6 +1,6 @@
 # Dataset
 
-_A Dataset is a set of data grouped into a collection with which developers can work to meet their goals_
+_A Dataset is a set of data, typically organized in tables, arrays or specific formats, such as CSV or JSON, grouped into a collection with which developers can work to meet their goals_
 
 ## Types of Datasets
 
@@ -23,6 +23,14 @@ _A Dataset is a set of data grouped into a collection with which developers can 
 - **Time series Dataset**: These include datasets between a period, for example, changes in geographical terrain over time.
 
 - **Web Dataset**: These include datasets created by calling APIs using HTTP requests and populating them with values for data analysis. These are mostly stored in JSON (JavaScript Object Notation) formats.
+
+## Main Characteristics
+
+- Variables represent the specific attributes or characteristics being studied within the dataset. For example, in a sales dataset, variables might include product ID, price and purchase date. Variables often serve as inputs for machine learning algorithms and statistical analysis.
+
+- Schemas define a dataset's structure, including the relationships and syntax between its variables. For example, a tabular dataset's schema might outline the dataset's formats and column headers, such as "date," "amount" and "category." A JSON schema might describe nested data structures such as customer profiles with attributes such as "name," "email" and an array of "order history" objects.
+
+-Metadata or data about data, provides essential context about the dataset, including details about its origin, purpose and usage guidelines. This information helps ensure that datasets remain interpretable and integrate effectively with other systems.
 
 ## Properties of Dataset
 
@@ -56,17 +64,27 @@ _A Dataset is a set of data grouped into a collection with which developers can 
 
 ## The Process of Data Analysis
 
-- **Define Objectives**: Set clear goals and identify the key questions our analysis should answer. Understand what insights or decisions the data will guide.
+1. **Define Objectives**: Set clear goals and identify the key questions our analysis should answer. Understand what insights or decisions the data will guide.
 
-- **Data Collection**: Gather relevant information from reliable sources. Ensure data is complete, accurate and well-organized. Data can be qualitative (descriptions) or quantitative (numbers).
+1. **Data Collection**: Gather relevant information from reliable sources. Ensure data is complete, accurate and well-organized. Data can be qualitative (descriptions) or quantitative (numbers).
 
-- **Data Cleaning & Preprocessing**: Fix errors, handle missing values and deal with outliers. Prepare the data in a format suitable for accurate analysis.
+1. **Data Cleaning & Preprocessing**: Fix errors, handle missing values and deal with outliers. Prepare the data in a format suitable for accurate analysis.
 
-- **Exploratory Data Analysis (EDA)**: Explore the data with visuals and summary statistics to spot patterns, trends and anomalies. This step helps refine our approach.
+1. **Exploratory Data Analysis (EDA)**: Explore the data with visuals and summary statistics to spot patterns, trends and anomalies. This step helps refine our approach.
 
-- **Statistical Analysis**: Apply statistical methods or models to test ideas, find relationships and make predictions that answer our original questions.
+1. **Statistical Analysis**: Apply statistical methods or models to test ideas, find relationships and make predictions that answer our original questions.
 
-- **Visualization & Communication**: Present findings through charts, dashboards or reports. Share insights clearly so stakeholders can make informed decisions.
+1. **Visualization & Communication**: Present findings through charts, dashboards or reports. Share insights clearly so stakeholders can make informed decisions.
+
+## Types of Data Analysis
+
+- **Descriptive Analysis**: Focuses on summarizing historical data to understand past events and trends. It provides a clear picture of what has happened through reports, charts and key metrics.
+
+- **Diagnostic Analysis**: Explores data in greater depth to determine why certain outcomes occurred. It identifies causes, correlations and contributing factors behind observed patterns.
+
+- **Predictive Analysis**: Uses statistical models and historical data to forecast what is likely to happen in the future. It supports planning by anticipating trends, risks or opportunities.
+
+- **Prescriptive Analysis**: Builds on predictive insights by recommending what actions should be taken. It provides data-driven strategies and solutions to optimize decision-making.
 
 ## Sources
 

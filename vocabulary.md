@@ -67,10 +67,12 @@ agentic feedback loop
 
 ## Dataset
 
-- class or feature ("table column")
-- data point ("table row")
-- feature or class ("table column")
-- partition
+- class or feature : ("table column")
+- data point : ("table row")
+- feature or class : ("table column")
+- partition : divides a single logical dataset into non-overlapping pieces
+- replication : copies the entire dataset (or individual partitions) to two or more nodes
+- sharding : a form of horizontal partitioning that distributes partitions (shards) to multiple database instances, often with separate data stores
 
 ## Embedding
 
@@ -85,3 +87,7 @@ agentic feedback loop
 ## Structured Attention
 
 ## RAG - Retrieval Augmented Generation
+
+## Sources
+
+- [Partition, Replication, Sharding](https://airbyte.com/data-engineering-resources/what-is-data-partitioning)
