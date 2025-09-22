@@ -39,6 +39,8 @@
 
 ## Agent
 
+agentic feedback loop
+
 ## Neural Network
 
 ## Transformer
@@ -64,6 +66,11 @@
 ## Epoch
 
 ## Dataset
+
+- class or feature ("table column")
+- data point ("table row")
+- feature or class ("table column")
+- partition
 
 ## Embedding
 
